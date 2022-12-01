@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="340dp"
+    android:layout_height="200dp"
+    android:background="@drawable/DialogTheme"
+    android:gravity="center_vertical|center|center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_vertical|center|center_horizontal"
+        android:text=" CREATE A FILE   "
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <android.widget.EditText
+		android:id="@+id/Filename"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_200"
+        android:hint="File Name" />
+
+    <Button
+		android:id="@+id/Done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Done" />
+
+</LinearLayout>

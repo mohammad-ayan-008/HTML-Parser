@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    
+
+    <com.File.Discriptor.CustomEditText
+        android:id="@+id/Edit"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#121212"
+        android:gravity="top|center_vertical|center|center_horizontal|left"
+        android:hint="Typing..."
+        android:inputType="textMultiLine"
+        android:lines="100"
+        android:maxLines="40"
+		
+        android:paddingLeft="30dp"
+        android:textSize="20dp" />
+
+  
+
+</RelativeLayout>
